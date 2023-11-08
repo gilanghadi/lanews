@@ -1,0 +1,19 @@
+.bg-card {
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 16px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.bg-gradient{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.2) 100%);
+}
+
+::-webkit-scrollbar {
+    width: .2rem;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ABB1BB
+}

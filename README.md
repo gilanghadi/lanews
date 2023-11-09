@@ -68,6 +68,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Setting Up
 - Buat Akun di website NEWSAPI serta Generate API Key
+- **[NEWSAPI](https://newsapi.org/)**
 - CP (copy paste) .env.example ke .env
 - Tambah Value Dibawah ini pada file .env anda
 - NEWS_API=https://newsapi.org/v2

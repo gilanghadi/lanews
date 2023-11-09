@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Setting Up
+- Buat Akun di website NEWSAPI serta Generate API Key
+- CP (copy paste) .env.example ke .env
+- Tambah Value Dibawah ini pada file .env anda
+- NEWS_API=https://newsapi.org/v2
+- TOKEN_API=your_news_api_key

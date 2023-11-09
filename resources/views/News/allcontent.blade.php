@@ -3,8 +3,8 @@
 @section('content')
     <div class="pt-32">
         <form action="{{ route('allnews') }}" method="GET" id="form">
-            <div class="grid grid-cols-5 gap-x-4">
-                <div class="grid col-span-3">
+            <div class="grid sm:grid-cols-3 md:grid-cols-5 gap-x-4">
+                <div class="grid col-span-1 md:col-span-3">
                     <h1 class="mb-3 font-roboto font-semibold text-lg">Language</h1>
                     <div>
                         <select id="language" name="Language"
@@ -39,8 +39,8 @@
                 </div>
 
 
-                <div class="grid col-span-2 mt-8 ml-5">
-                    <div class="flex flex-row justify-between">
+                <div class="grid col-span-2 md:col-span-2 mt-8 ml-5">
+                    <div class="flex flex-row justify-between items-center">
                         <div>
                             <label for="sortBy" class="mr-4 font-semibold font-roboto">Sort BY</label>
                             <select id="sortBy" name="sortBy"
@@ -68,7 +68,7 @@
             </div>
         </form>
 
-        <div class="grid grid-cols-6 gap-x-4 gap-y-7 mt-16">
+        <div class="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-7 mt-16">
             @foreach ($AllNewsEverything['articles'] as $allNews)
                 <div class="">
                     <div>

@@ -4,7 +4,7 @@
         <hr class="w-20 border border-primary">
     </div>
     <div class="grid grid-cols-6 mt-10 gap-3">
-        <div class="grid grid-cols-3 col-span-4 gap-4">
+        <div class="grid sm:grid-cols-1 md:grid-cols-3 col-span-2 md:col-span-4 gap-4">
             @foreach ($popularNews['articles'] as $popularNews)
                 <div class="">
                     <a href="{{ $popularNews['url'] }}">
@@ -37,7 +37,7 @@
         </div>
 
 
-        <div class="grid grid-cols-1 col-span-2 gap-y-5 h-[100rem] overflow-auto">
+        <div class="grid grid-cols-1 col-span-4 md:col-span-2 gap-y-5 h-[100rem] overflow-auto">
             @foreach ($AllNews['articles'] as $news)
                 <div class="pr-2 pl-4">
                     <a href="{{ $news['url'] }}">

@@ -35,7 +35,7 @@
 
     <main>
         @include('layouts.partials.navbar')
-        <div class="main-content container mx-auto px-10">
+        <div class="main-content container mx-auto lg:px-10">
             @yield('content')
         </div>
         @include('layouts.partials.footer')
@@ -46,6 +46,13 @@
     <script src="{{ asset('splide-4.1.3/dist/js/splide.min.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     @yield('custom-js')
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#mobile-menu').on('click', function() {
+                $('#menu-mobile').toggle('block');
+            })
+        })
+    </script>
 </body>
 
 </html>

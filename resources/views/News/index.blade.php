@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <div class="grid grid-cols-2 gap-5 pt-32">
+    <div class="grid sm:grid-cols-1 md:grid-cols-2 gap-5 pt-32">
         <div class="border-r border-r-secondary px-3">
             <h1 class="text-5xl font-semibold leading-tight w-full font-roboto">Most <span
                     class="text-primary">Sensational</span>
@@ -12,7 +12,7 @@
                 became the subject
                 of discussion
                 throughout the week</p>
-            <div class="w-full h-48 box-border mt-5">
+            <div class="w-full box-border mt-5">
                 <a href="{{ $latestNewsTop['articles'][0]['url'] }}">
                     <div class="relative">
                         <div class="bg-primary z-10 absolute top-10 left-0 px-4 py-2 uppercase font-roboto text-white">top

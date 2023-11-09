@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <div class="grid grid-cols-6 gap-x-4 gap-y-7 mt-10">
+        <div class="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-7 mt-10">
             @foreach ($contentHasCategory['articles'] as $content)
                 <div class="">
                     <div>
